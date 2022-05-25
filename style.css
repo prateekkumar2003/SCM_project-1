@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image:url(https://treehouse.co/uploads/ciemny-szary-salon.jpg);
+    background-size: cover;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #2a2de2;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover:after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+
+}
+.content h1{
+    margin-top: 80px;
+}
+.content p{
+    line-height: 25px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    margin: 20px 10px;
+	font-weight: bold;
+    border-radius: 20px;
+    border: 2px solid rgb(26, 39, 218);
+    border-color: rgb(39, 20, 202);
+    background: transparent;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #2a2de2;
+    height: 100%;
+    width: 0;
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+/* .login{
+    text-align: left;
+    background-color: aquamarine;
+    width: 155px;
+    height: 160px; */
+
+.login{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;}
+    .register{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: right;
+        color: white;
+		font-size:20px;
+		}
+        .banner1{ 
+            width: 100%;
+            background-image:url(https://media.designcafe.com/wp-content/uploads/2021/07/12182507/dark-interior-designs-for-your-home.jpg);
+            background-blend-mode: darken;
+            background-size: contain;
+            background-blend-mode: color-burn;
+            height: 165vh;
+        }
+        .banner2{
+            width: 100%;
+			height:100vh;
+            background-image:url(https://cdn.pixabay.com/photo/2021/11/10/06/23/workout-6783020_1280.jpg);
+            background-blend-mode: darken;
+            background-size: contain;
+            background-blend-mode: color-burn;
+          
+        }
+		.banner3{
+			width: 100%;
+			height:100vh;
+            background-image:url(https://cdn.pixabay.com/photo/2018/01/23/16/22/indoors-3101776_1280.jpg);
+            background-blend-mode: darken;
+            background-size:cover;
+            background-blend-mode: color-burn;
+           
+			
+		}
+		.banner4{
+			width: 100%;
+			height:100vh;
+            background-image:url(https://cdn.pixabay.com/photo/2017/12/27/14/41/window-3042834_1280.jpg);
+            background-blend-mode: darken;
+            background-size:cover;
+            background-blend-mode: color-burn;
+			
+			
+		}
+		.banner5{
+			width: 100%;
+			height:100vh;
+            background-image:url(https://cdn.pixabay.com/photo/2019/06/02/11/25/kitchen-4246249_1280.jpg);
+            background-blend-mode: darken;
+            background-size:cover;
+            background-blend-mode: color-burn;
+			
+			
+		}
+		.banner6{
+			width: 100%;
+			height:100vh;
+            background-image:url(https://cdn.pixabay.com/photo/2016/04/10/23/32/retro-1321078_1280.jpg);
+            background-blend-mode: darken;
+            background-size:cover;
+            background-blend-mode: color-burn;
+			
+		}
+		.banner7{
+			width: 100%;
+			height:100vh;
+            background-image:url(https://cdn.pixabay.com/photo/2020/07/26/15/15/woman-5439837_1280.jpg);
+            background-blend-mode: darken;
+            background-size:cover;
+            background-blend-mode: color-burn;
+			
+			
+		}
+		.banner8{
+			width: 100%;
+			height:100vh;
+            background-image:url(https://treehouse.co/uploads/ciemny-szary-salon.jpg);
+            /*background-blend-mode: darken;*/
+            background-size:cover;
+           /* background-blend-mode: color-burn;*/
+			
+			
+		}
